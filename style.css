@@ -22,12 +22,14 @@ body{
 }
 
 .pera-edit{
-    color:rgb(4, 241, 63);
     padding-left: 25%;
     padding-right: 25%;
     font-weight: 100;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
+}
+#text-clr1{
+    color: white;
 }
 
 .button{
@@ -46,8 +48,8 @@ body{
 
 .display-edit{
     display: flex;
-    padding-left: 23%;
-    padding-right: 23%;
+    padding-left: 13%;
+    padding-right: 40%;
 }
 
 .amount{
@@ -58,6 +60,38 @@ body{
     border-radius: 5px;
     
 
+}
+.plan{
+    padding-top: 35px;
+    padding-left:3%;
+    padding-right: 45%;
+    height: 150px;
+    width: 33%;
+    border:2px solid greenyellow;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+#padd-amount{
+    padding-left:24%;
+    padding-right: 23%;
+}
+#bg-clr1{
+    background-color: bisque;
+    background-image:url(donate-today-main/icons/food.png);
+    background-repeat: no-repeat;
+    
+}
+#bg-clr2{
+    background-color: rgb(223, 126, 7);
+    background-image:url(donate-today-main/icons/shelter.png);
+    background-repeat: no-repeat;
+}
+#bg-clr3{
+    background-color: rgb(163, 6, 93);
+    background-image:url(donate-today-main/icons/Frame-1.png);
+    background-repeat: no-repeat;
 }
 
 .button2{
@@ -87,3 +121,4 @@ body{
 .Top-margin{
     margin-top: 50px;
 }
+
