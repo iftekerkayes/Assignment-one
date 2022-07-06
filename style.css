@@ -1,29 +1,35 @@
 body{
     font-family: 'Lobster', cursive;
 }
+
 .background{
     background-image: url(donate-today-main/images/donation13.jpg);
     background-repeat: no-repeat;
-    height: 350px;
+    height: 360px;
   
 }
+
 .heading{
     color: rgb(255, 0, 0);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
    
 }
+
 .padding{
     padding-top: 100px;
 }
+
 .pera-edit{
-    color:white;
+    color:rgb(4, 241, 63);
     padding-left: 25%;
     padding-right: 25%;
     font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
     font-size: small;
 }
+
 .button{
     text-decoration: none;
     color: black;    
@@ -32,4 +38,49 @@ body{
     border-radius: 5px;
     margin-left: 43%;
 
+}
+
+.heading2{
+    text-align: center;
+}
+
+.display-edit{
+    display: flex;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.amount{
+    padding-top: 1px;
+    padding-left: 14px;
+    border:2px solid grey;
+    margin:5px;
+    border-radius: 5px;
+    
+
+}
+
+.button2{
+    text-decoration: none;
+    color: black;   
+}
+
+#auto-select{
+    padding-top: 1px;
+    padding-left: 14px;
+    border:2px solid green;
+    margin:5px;
+    background-color: rgb(101, 180, 101);
+    border-radius: 5px;
+
+}
+
+#amount-feild{
+    padding-left:40%;
+    padding-top: 3%;
+    
+}
+.button-padding{
+    margin-top:20px;
+    margin-left: 20px;
 }
