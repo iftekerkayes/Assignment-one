@@ -109,8 +109,8 @@ body{
 
 }
 
-#amount-feild{
-    padding-left:40%;
+.input-feild{
+    padding-left:38%;
     padding-top: 3%;
     
 }
@@ -120,5 +120,11 @@ body{
 }
 .Top-margin{
     margin-top: 50px;
+}
+.padd-buttom{
+    padding-bottom: 50px;
+}
+.footer{
+    background-color: rgb(211, 9, 134);
 }
 
